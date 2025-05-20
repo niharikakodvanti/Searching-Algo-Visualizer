@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="top_Nav"><p class="header"><span class="V">B</span>inary Search <span >V</span>s <span class="V">L</span>inear Search</p></div>
+  <div class="parentContainer">
+	<br />
+  <div class="top_container">
+    <div class="BS">
+      
+      <div class="arrayWrapper"><div id="array">CHOOSING RANDOM ARRAY</div></div>
+      <br />
+    </div>
+    <div style="text-align: center" class="interaction-section">
+      <label for="fname" >
+        Number to be Searched:
+      </label>
+      <input type="text" id="fname" 
+          name="fname" />
+      
+      <div class="btns">
+        <button class="btn" id="ls" >LinearSearch</button>
+        <button class="btn" id="co">Compare</button>
+        <button class="btn" id="bs" >BinarySearch</button>
+      </div>
+      <br />
+      <div id="text"></div>
+      
+    </div>
+  </div>
+  <div class="mainContent">
+    <div class="firstSection" style="justify-content: center;"> 
+      <h2 id="text2">Select Algorithm</h2>
+      <!-- <br/> -->
+      <div id="text"></div>
+    </div>
+    <!-- <br/> -->
+
+  
+
+  <div class="tableWrapper" style="text-align: center; ">
+    <span style=" margin-bottom: 16px;" > <h2 id="text2">Steps comparison table</h2></span>
+  <div class="compTable">
+    
+    <div class="searchedcol">
+    <div class="searched ccol firstRow">Searched</div>
+    </div>
+
+    <div class="bscol">
+    <div class="bsTable ccol firstRow">Binary Search</div>
+    </div>
+    <div class="lscol">
+    <div class="lsTable ccol firstRow">Linear Search</div>
+    </div>
+    <div class="pcol">
+    <div class="present ccol firstRow">Present</div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
